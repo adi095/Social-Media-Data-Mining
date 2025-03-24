@@ -1,1 +1,13 @@
+	                           Accuracy 	Precision	Recall	F1 Score
+NaiveBayes_BoW	              0.8136	0.8605	0.7484	0.8006
+LogReg_BoW	                  0.8667	0.8726	0.8588	0.8657
+NaiveBayes_TFIDF       	      0.8296	0.8741	0.7700	0.8188
+LogReg_TFIDF	                0.8832	0.8841	0.8819	0.8830
+NaiveBayes_BoW_Stopwords	    0.8197	0.8632	0.7598	0.8082
+LogReg_BoW_Stopwords	        0.8591	0.8656	0.8502	0.8578
+NaiveBayes_TFIDF_Stopwords	  0.8299	0.8653	0.7815	0.8213
+LogReg_TFIDF_Stopwords	      0.8790	0.8779	0.8805	0.8792
+LogReg_TFIDF_Stopwords_L1	    0.8734	0.8634	0.8870	0.8751
+LogReg_TFIDF_Stopwords_None  	0.8477	0.8595	0.8312	0.8451
 
+TF-IDF consistently performs better with Bag-of-Words for both models, especially with Logistic Regression, which achieves the best performance overall. Stop word removal slightly makes Naive Bayes better, but it lowers Logistic Regression. Overall, the effect is small. L2 regularization performs best. No regularization significantly lowers performance, due to overfitting on high-dimensional TF-IDF features.
