@@ -1,1 +1,12 @@
+ 1. Explain why unary ratings are significantly different from other types of ratings in the design of recommender systems.
+ 2. Discuss cases in which content-based recommendations will not perform as well as ratings-based collaborative filtering.
+ 3. Suppose you set up a system, where a guided visual interface is used in order to determine the product of interest to a customer.
+    What category of recommender system does this case fall into?
+ 4. Discuss a scenario in which location plays an important role in the recommendation process.
+ 5. The chapter mentions the fact that collaborative filtering can be viewed as a generalization of the classification problem. 
+    Discuss a simple method to generalize classification algorithms to collaborative filtering. 
+    Explain why it is difficult to use such methods in the context of sparse ratings matrices.
+ 6. Suppose that you had a recommender system that could predict raw ratings. How would you use it to design a top-k recommender system? 
+    Discuss the computational complexity of such a system in terms of the number of applications of the base prediction algorithm. 
+    Under what circumstances would such an approach become impractical
 
