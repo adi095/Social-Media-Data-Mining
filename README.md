@@ -89,8 +89,12 @@ Each assignment in this repository is organized into its own folder. You can fin
     - Effect of stop word removal.
     - Regularization techniques (L1, L2, none).
     - Comparison across Naive Bayes and Logistic Regression.
-    - Analysis of classification metrics: accuracy, precision, recall, F1-score.
-
+    - Analysis of classification metrics: accuracy, precision, recall, F1-score.\
+      
+## Recommender system Quiz
+- Includes chapter 1 "Chapter 1
+ An Introduction to Recommender
+ Systems" and its quiz.
     
 ## Contributing
 
